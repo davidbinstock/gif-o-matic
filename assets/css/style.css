@@ -1,0 +1,80 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.add-topic-form{
+    text-align: center;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.button-holder{
+    margin-bottom: 1em;
+}
+
+.topic-span{
+    margin-right: 0.5em;
+}
+.gif-holder{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.gif-div{
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+.gif:hover{
+    cursor: pointer;
+}
+
+.pop-up-box{
+    position: fixed;
+    top: 75px;
+    left: 0;
+    right: 0;
+
+    background-color: #43dd89;
+    height: 300px;
+    width: 700px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around; 
+}
+#pop-up-ok-button{
+    height: 3em;
+    width: 8em;
+}
+#pop-up-message{
+    font-size: 2em;
+}
+
+button, #submit-button{
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #4882fd;
+    color: white;
+    outline: none;
+}
+button:active, #submit-button:active{
+    background-color: #3663c4;
+    color: #dfdfdf;
+}
+
+button:hover, #submit-button:hover{
+    cursor: pointer;
+}
+
+.delete-button{
+    border-color: white;
+    background-color: white;
+}
+.delete-button:hover{
+    border: 1px solid gray;
+    background-color: #a1bfff;
+}

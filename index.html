@@ -14,19 +14,24 @@
 
 </head>
 <body>
+    <div class="container">
+        <form id="add-topic-form" class="add-topic-form">
+            <label for="input-text">Add a Muppet! <br> (or whatever you want)</label> <br>
+            <input type="text" id="input-text"> <br>
+            <input type="submit" id="submit-button" value="Submit">
+        </form>
+        
+        <div class="button-holder" id="button-holder">
+            placeholder...
+        </div>
+        
+        <div class="gif-holder" id="gif-holder"></div>
 
-    <form id="add-topic-form">
-        <label for="input-text">Add a Thing!</label>
-        <input type="text" id="input-text">
-        <input type="submit" id="submit-button" value="Submit">
-    </form>
-    
-    <div class="button-holder" id="button-holder">
-        placeholder...
+        <div class="pop-up-box" id="pop-up-box" >
+            <div id="pop-up-message">hello</div>
+            <button id="pop-up-ok-button">OK</button>
+        </div>
     </div>
-    
-    <div class="gif-holder" id="gif-holder"></div>
-
     
     <!-- linking JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
